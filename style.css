@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url('./img/bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0;
+  height: 90px;
+}
+
+nav > img {
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+}
+
+hr {
+  height: 60px;
+  width: 2px;
+  background-color: #fff;
+  margin-left: 50px;
+}
+
+ul {
+  display: flex;
+  flex-grow: 1;
+}
+
+li {
+  margin-left: 50px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn1 {
+  background: #ba0cc5;
+  color: #fff;
+  cursor: pointer;
+  width: 160px;
+  height: 35px;
+  border-radius: 7px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+  gap: 20px;
+  height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 95px;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.btn2 {
+  background: #ba0cc5;
+  color: #fff;
+  cursor: pointer;
+  width: 400px;
+  height: 70px;
+  border-radius: 7px;
+  border: none;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 45px;
+}
